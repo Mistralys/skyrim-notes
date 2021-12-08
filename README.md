@@ -43,3 +43,9 @@ bBlockMessageBoxes=1
 
 To create a new mod, do not select an active file in the open dialog.
 
+### Making changes to an existing mod
+
+* Create a new mod
+* Duplicate the item to modify (to keep the original intact)
+* Do any necessary changes
+* Save to a new mod
