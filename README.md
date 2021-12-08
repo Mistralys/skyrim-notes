@@ -4,6 +4,12 @@ Collected notes for playing and modding Skyrim.
 
 ## Creation Kit
 
+### Installation
+
+To get the creation kit for the Special Edition, log in to the [bethesda.net](https://bethesda.net) website, and download the launcher. The kit can only be installed from the launcher.
+
+> Once installed, it can be launched from the `CreationKit.exe` in the game folder.
+
 ### Configuration
 
 Add the following under `[GENERAL]`:
