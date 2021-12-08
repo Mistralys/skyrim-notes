@@ -49,3 +49,18 @@ To create a new mod, do not select an active file in the open dialog.
 * Duplicate the item to modify (to keep the original intact)
 * Do any necessary changes
 * Save to a new mod
+
+### Making an item craftable
+
+Use case: A mod adds items, but they are not craftable. They can be easily made craftable.
+
+* Open the source mod without making it active
+* Create a copy of the item, to leave the original intact
+* In case of armor, also copy the matching Armor Addon item
+* Remove any enchantments and scripts from the item
+* Edit the item as necessary
+* Save as a new mod file
+
+> Drawback: If the original mod is updated and item stats change, for example, the changes must be made in the crafting mod as well.
+
+
