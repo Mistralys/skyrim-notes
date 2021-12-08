@@ -49,6 +49,7 @@ To create a new mod, do not select an active file in the open dialog.
 * Duplicate the item to modify (to keep the original intact)
 * Do any necessary changes
 * Save to a new mod
+* Load the new mod after the original mod
 
 ### Making an item craftable
 
