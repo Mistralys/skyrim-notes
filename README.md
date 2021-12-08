@@ -12,6 +12,8 @@ To get the creation kit for the Special Edition, log in to the [bethesda.net](ht
 
 ### Configuration
 
+Go to the game folder, there should be a `CreationKit.ini` file there, along with the excecutable. Open this to make some necessary adjustments.
+
 Add the following under `[GENERAL]`:
 
 ```
