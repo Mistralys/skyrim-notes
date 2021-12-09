@@ -2,6 +2,19 @@
 
 Collected notes for playing and modding Skyrim.
 
+## Taking Screenshots
+
+* `tm` (Toggle Menu) will hide all the HUD components, including the console menu. Type the command again blindly afterwards to restore the UI.
+* `tfc` (Toggle Free Camera) will let you move the camera anywhere. Key: Movement keys to move, left/right mouse buttons to move up and down. 
+* `tfc 1` Pauses the game with the free camera.
+* `sucsm <value>` (Set UFO Camera Speed Multiplier) Camera speed. 1=slow, higher values go faster.
+* `fov <angle>` (Field of View) Default: 65. Lower values = zoom in, higher = zoom out.
+* `csb` (Clear Screen Blood) Remove the blood on-screen effect.
+* `set gamehour to <hour>` changes the time, with <hour> between 0 and 23.
+* `fw <formid>` (Force Weather) temporarily changes the weather.
+
+More here: https://steamcommunity.com/sharedfiles/filedetails/?id=134522361
+  
 ## Creation Kit
 
 ### Installation
