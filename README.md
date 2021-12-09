@@ -10,7 +10,7 @@ Collected notes for playing and modding Skyrim.
 * `sucsm <value>` (Set UFO Camera Speed Multiplier) Camera speed. 1=slow, higher values go faster.
 * `fov <angle>` (Field of View) Default: 65. Lower values = zoom in, higher = zoom out.
 * `csb` (Clear Screen Blood) Remove the blood on-screen effect.
-* `set gamehour to <hour>` changes the time, with <hour> between 0 and 23.
+* `set gamehour to <hour>` changes the time, with `<hour>` between 0 and 23.
 * `fw <formid>` (Force Weather) temporarily changes the weather.
 
 More here: https://steamcommunity.com/sharedfiles/filedetails/?id=134522361
