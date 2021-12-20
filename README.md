@@ -21,25 +21,33 @@ More here: https://steamcommunity.com/sharedfiles/filedetails/?id=134522361
 
 In my Vortex mods list, I rename mods to add custom tags. This makes it a lot easier to work with a large list of mods, and easily filter them by criteria.
 
-* `[NoSKSE]` and `[SKSE]` - Whether SKSE is required.
+> NOTE: I have taken the habit of also adding the date I enabled a mod. This way it's 
+> easy to find a save game that was made prior to enabling the mod, if needed.
+
+#### General tags
+
+* `[NoSKSE]` and `[SKSE]` - Whether [SKSE][] (Skyrim Script Extender) is required.
 * `[NewGame]` - Requires a new game, cannot be enabled mid-save.
-* `[RaceMenu]`- Requires the [Race Menu][] mod.
-* `[SkyUI]` - Requires or uses the [SkyUI][] mod.
-* `[CBBE]` - Requires CBBE.
 * `[BodySlide]` - Includes BodySlide files.
 * `[ReadNotes]` - Important info available in the Vortex mod notes.
 * `[EnvX]` - Where `X` is a number: Environment mod sets.
 * `[Options]` - Mod has options that can be set in the FOMOD installer.
 * `[Dependencies]` - Mod has dependencies with other mods.
-* `[ENBDependent]` - Mod is tied to specific ENB presets, or requires ENB.
-* `[AddressLib]` - Mod requires the [Address Library][] mod.
+* `[ENBDependent]` - Mod is tied to specific ENB presets, or requires [ENB][].
 * `[Craftable]` and `[NonCraftable]` - For armors and weapons.
 * `[F]`, `[M]` and `[F/M]` - For armors, sets which sexes are supported by the armor.
+* `[QuestRequired]` - For items, means that a quest has to be completed to get them.
+
+#### Specific mod dependency tags
+
+* `[RaceMenu]`- Requires the [Race Menu][] mod.
+* `[SkyUI]` - Requires or uses the [SkyUI][] mod.
+* `[AddressLib]` - Mod requires the [Address Library][] mod.
+* `[CBBE]` - Requires the [CBBE][] (Calient's Beautiful Bodies Enhancer) mod.
 * `[USSEP]` - Requires the [USSEP][] (Unoffical Skyrim Special Edition Patch) mod.
 * `[WACCF]` - Requires the [WACCF][] (Weapons Armor Clothing and Clutter Fixes) mod.
-
-> In addition to this, I have taken the habit of also adding the date I enabled a mod: 
-> This way it's easy to find a save game that was made prior to enabling the mod, if needed.
+* `[CLLF]` - Requires the [CLLF][] (Containers and Leveled Lists Fixes) mod.
+* `[ACE]` -  Requires the [ACE][] (Armor and Clothing Extension) mod.
 
 #### SKSE/Non SKSE mods
 
@@ -135,5 +143,9 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 [WACCF]:https://www.nexusmods.com/skyrimspecialedition/mods/18994
 [Race Menu]:https://www.nexusmods.com/skyrimspecialedition/mods/19080
 [SkyUI]:https://www.nexusmods.com/skyrimspecialedition/mods/12604
-[FallrimToos]:https://www.nexusmods.com/skyrimspecialedition/mods/5031
-
+[FallrimTools]:https://www.nexusmods.com/skyrimspecialedition/mods/5031
+[CLLF]:https://www.nexusmods.com/skyrimspecialedition/mods/26575
+[ACE]:https://www.nexusmods.com/skyrimspecialedition/mods/19002
+[CBBE]:https://www.nexusmods.com/skyrimspecialedition/mods/198
+[SKSE]:https://skse.silverlock.org/
+[ENB]:http://enbdev.com/
