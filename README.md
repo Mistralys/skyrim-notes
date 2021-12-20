@@ -15,6 +15,28 @@ Collected notes for playing and modding Skyrim.
 
 More here: https://steamcommunity.com/sharedfiles/filedetails/?id=134522361
   
+## Vortex
+
+### Tagging 
+
+In my Vortex mods list, I rename mods to add custom tags. This makes it a lot easier to work with a large list of mods, and easily filter them by criteria.
+
+* `[NoSKSE]` and `[SKSE]` - Whether SKSE is required.
+* `[CBBE]` - Requires CBBE.
+* `[BodySlide]` - Includes BodySlide files.
+* `[ReadNotes]` - Important info available in the Vortex mod notes.
+* `[EnvX]` - Where `X` is a number: Environment mod sets(1)
+* `[Options]` - Mod has options that can be set in the FOMOD installer.
+* `[Dependencies]` - Mod has dependencies with other mods.
+* `[ENBDependent]` - Mod is tied to specific ENB presets, or requires ENB.
+* `[AddressLib]` - Mod requires the [Address Library][] mod.
+* `[Craftable]` and `[NonCraftable]` - For armors and weapons.
+* `[F]`, `[M]` and `[F/M]` - For armors, sets which sexes are supported by the armor.
+* `[USSEP]` - Requires the [USSEP][] (Unoffical Skyrim Special Edition Patch) mod.
+* `[WACCF]` - Requires the [WACCF][] (Weapons Armor Clothing and Clutter Fixes) mod.
+
+(1) Each number identifies a set of mods that are used together for adjusting the environment, from the weather to the flora. This way, searching for `[Env1]` for example, will display all mods required for that environment set (e.g. Obsidian weathers or Cathedral Landscapes).
+   
 ## Creation Kit
 
 ### Installation
@@ -78,3 +100,6 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 > Drawback: If the original mod is updated and item stats change, for example, the changes must be made in the crafting mod as well.
 
 
+[USSEP]:https://www.nexusmods.com/skyrimspecialedition/mods/266
+[Address Library]:https://www.nexusmods.com/skyrimspecialedition/mods/32444
+[WACCF]:https://www.nexusmods.com/skyrimspecialedition/mods/18994
