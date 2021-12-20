@@ -36,7 +36,8 @@ In my Vortex mods list, I rename mods to add custom tags. This makes it a lot ea
 * `[ENBDependent]` - Mod is tied to specific ENB presets, or requires [ENB][].
 * `[Craftable]` and `[NonCraftable]` - For armors and weapons.
 * `[F]`, `[M]` and `[F/M]` - For armors, sets which sexes are supported by the armor.
-* `[QuestRequired]` - For items, means that a quest has to be completed to get them.
+* `[QuestRequired]` - For items that require a quest to be completed.
+* `[Skyforge]` - For items that can only be crafted at the Skyforge.
 
 #### Specific mod dependency tags
 
