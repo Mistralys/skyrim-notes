@@ -83,6 +83,10 @@ To check how many plugins are in the load order that are not flagged as light, d
    
 As long as this number stays below 256, all is good. Beyond this, manual adjustments are needed: Converting plugins that could be light to light plugins in xEdit, or even merge mods. This needs separate tutorials however.
    
+## ENB handling
+
+Download for Skyrim: [ENB][].
+ 
 ## Mod notes
 
 ### Race Menu
@@ -164,4 +168,4 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 [ACE]:https://www.nexusmods.com/skyrimspecialedition/mods/19002
 [CBBE]:https://www.nexusmods.com/skyrimspecialedition/mods/198
 [SKSE]:https://skse.silverlock.org/
-[ENB]:http://enbdev.com/
+[ENB]:http://enbdev.com/download_mod_tesskyrimse.htm
