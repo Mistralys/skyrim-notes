@@ -40,6 +40,7 @@ In my Vortex mods list, I rename mods to add custom tags. This makes it a lot ea
 * `[QuestRequired]` - For items that require a quest to be completed.
 * `[Skyforge]` - For items that can only be crafted at the Skyforge.
 * `[Console]`- Requires console commands to be run to use.
+* `[Hearthfire]` - Adds/chages things related to the Hearthfire system.
 
 #### Specific mod dependency tags
 
