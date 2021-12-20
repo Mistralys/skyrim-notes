@@ -38,6 +38,7 @@ In my Vortex mods list, I rename mods to add custom tags. This makes it a lot ea
 * `[F]`, `[M]` and `[F/M]` - For armors, sets which sexes are supported by the armor.
 * `[QuestRequired]` - For items that require a quest to be completed.
 * `[Skyforge]` - For items that can only be crafted at the Skyforge.
+* `[Console]`- Requires console commands to be run to use.
 
 #### Specific mod dependency tags
 
