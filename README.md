@@ -69,6 +69,20 @@ Example in my mods list:
 * `Cathedral - Weathers [Env2]`
 * `Cathedral - Landscapes [Env2]`
    
+### Light plugins, ESPFE, ESL and co
+
+Skyrim has a hardwired limit of 256 plugins (the `.esp` or `.esm` files). However, smaller plugins which only do a limited number of edits in the game world can be flagged as "Light" plugins. In this case, they do not take up a space towards the plugin limit. Many of the plugins on Nexusmods are already flagged as light.
+
+To check how many plugins are in the load order that are not flagged as light, do the following:
+
+1. Go to the plugins list.
+2. Select all plugins (CTRL+A).
+3. Note how many plugins there are in total (bottom right).
+4. In the Flags column, filter by "Light".
+5. Subtract the amount of light plugins from the total.
+   
+As long as this number stays below 256, all is good. Beyond this, manual adjustments are needed: Converting plugins that could be light to light plugins in xEdit, or even merge mods. This needs separate tutorials however.
+   
 ## Mod notes
 
 ### Race Menu
