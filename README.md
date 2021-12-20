@@ -22,10 +22,13 @@ More here: https://steamcommunity.com/sharedfiles/filedetails/?id=134522361
 In my Vortex mods list, I rename mods to add custom tags. This makes it a lot easier to work with a large list of mods, and easily filter them by criteria.
 
 * `[NoSKSE]` and `[SKSE]` - Whether SKSE is required.
+* `[NewGame]` - Requires a new game, cannot be enabled mid-save.
+* `[RaceMenu]`- Requires the [Race Menu][] mod.
+* `[SkyUI]` - Requires or uses the [SkyUI][] mod.
 * `[CBBE]` - Requires CBBE.
 * `[BodySlide]` - Includes BodySlide files.
 * `[ReadNotes]` - Important info available in the Vortex mod notes.
-* `[EnvX]` - Where `X` is a number: Environment mod sets(1)
+* `[EnvX]` - Where `X` is a number: Environment mod sets.
 * `[Options]` - Mod has options that can be set in the FOMOD installer.
 * `[Dependencies]` - Mod has dependencies with other mods.
 * `[ENBDependent]` - Mod is tied to specific ENB presets, or requires ENB.
@@ -35,7 +38,34 @@ In my Vortex mods list, I rename mods to add custom tags. This makes it a lot ea
 * `[USSEP]` - Requires the [USSEP][] (Unoffical Skyrim Special Edition Patch) mod.
 * `[WACCF]` - Requires the [WACCF][] (Weapons Armor Clothing and Clutter Fixes) mod.
 
-(1) Each number identifies a set of mods that are used together for adjusting the environment, from the weather to the flora. This way, searching for `[Env1]` for example, will display all mods required for that environment set (e.g. Obsidian weathers or Cathedral Landscapes).
+> In addition to this, I have taken the habit of also adding the date I enabled a mod: 
+> This way it's easy to find a save game that was made prior to enabling the mod, if needed.
+
+#### SKSE/Non SKSE mods
+
+These tags make it very easy to create a mods profile that does not use SKSE, simply by enabling all mods tagged `[NoSKSE]` in Vortex. All SKSE-dependent mods can inversely easily be listed by searching for the `[SKSE]` tag.
+
+#### Environment sets
+
+An environment set refers to a collection of mods that are used together for adjusting the environment, from the weather to the flora. Since they are typically mutually exclusive, this makes it handy to keep track of which mods must/should be used together. Mods that can be used with several get multiple environment tags.
+
+For example, `[Env1]` for Obsidian Weathers and `[Env2]` for Cathedral Weathers. Searching for either tag directly shows which mods need to be enabled for it.
+
+Example in my mods list:
+
+* `Blended Roads [Env1] [Env2]`
+* `Nordic Snow [Env1]`
+* `Obsidian Weathers [Env1]`
+* `Cathedral - Weathers [Env2]`
+* `Cathedral - Landscapes [Env2]`
+   
+## Mod notes
+
+### Race Menu
+
+#### Mid-save script cleanup
+
+I had to disable Race Menu mid-game at some point, because of the Anniversary Edition update. While the game still loaded correctly, saving caused an instant CTD. This was caused by leftover Race Menu scripts in the save game. I managed to solve this issue by using ReSaver from [FallrimTools][]. I searched for `RaceMenu` in the tool, and simply removed everything from the search results. Using this cleaned save, I was able to continue playing.
    
 ## Creation Kit
 
@@ -103,3 +133,7 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 [USSEP]:https://www.nexusmods.com/skyrimspecialedition/mods/266
 [Address Library]:https://www.nexusmods.com/skyrimspecialedition/mods/32444
 [WACCF]:https://www.nexusmods.com/skyrimspecialedition/mods/18994
+[Race Menu]:https://www.nexusmods.com/skyrimspecialedition/mods/19080
+[SkyUI]:https://www.nexusmods.com/skyrimspecialedition/mods/12604
+[FallrimToos]:https://www.nexusmods.com/skyrimspecialedition/mods/5031
+
