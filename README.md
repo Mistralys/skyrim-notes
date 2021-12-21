@@ -85,6 +85,35 @@ To check how many plugins are in the load order that are not flagged as light, d
    
 As long as this number stays below 256, all is good. Beyond this, manual adjustments are needed: Converting plugins that could be light to light plugins in xEdit, or even merge mods. This needs separate tutorials however.
    
+### Exporting the Vortex mods list
+
+This can only be done with a Vortex extension. At the time of writing (december 2021), there is only one extension that does this: [ModlistBackup][].
+
+To install it, do the following:
+
+1. Open Vortex 
+2. Go to "Extensions"
+3. Click "Find more" 
+4. Search for "Modlist"
+5. Install the mod from the list
+6. Restart Vortex
+7. Go to "Mods"
+8. Click on the "Modlist" button
+9. Choose "Modlist backup only this game"
+
+This creates a JSON file with a list of all mods. However, this list only contains the original mod names - not the ones renamed and tagged in Vortex.
+
+To add the custom name to the JSON, a small hack is needed:
+
+1. Close Vortex
+2. Open the folder `%AppData%\Vortex\plugins`
+3. Find the extension folder, e.g. `Vortex Extension Update - Modlist Backup v0.3.2`
+4. Open the file `index.js` in a text editor
+5. Search for `transformModFormat`
+6. Insert the following line after `name: mod.attributes.modName,`:
+7. `displayName: (typeof(mod.attributes.customFileName) !== undefined ? mod.attributes.customFileName : ''),`
+8. Start Vortex again, export the list.
+   
 ## ENB handling
 
 Download for Skyrim: [ENB][].
@@ -171,3 +200,4 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 [CBBE]:https://www.nexusmods.com/skyrimspecialedition/mods/198
 [SKSE]:https://skse.silverlock.org/
 [ENB]:http://enbdev.com/download_mod_tesskyrimse.htm
+[ModlistBackup]:https://github.com/Garethp/Vortex-Modlist-Backup
