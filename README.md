@@ -113,6 +113,25 @@ To add the custom name to the JSON, a small hack is needed:
 6. Insert the following line after `name: mod.attributes.modName,`:
 7. `displayName: (typeof(mod.attributes.customFileName) !== undefined ? mod.attributes.customFileName : ''),`
 8. Start Vortex again, export the list.
+
+To get even more data per mod, this can be used:
+
+```javascript
+const transformModFormat = (mod) => ({
+    name: mod.attributes.modName,
+    displayName: getSafe_1.default(mod.attributes, ['customFileName'], ''),
+    version: mod.attributes.version,
+    modVersion: getSafe_1.default(mod.attributes, ['modVersion'], ''),
+    installTime: getSafe_1.default(mod.attributes, ['installTime'], ''),
+    category: getSafe_1.default(mod.attributes, ['category'], ''),
+    pictureURL: getSafe_1.default(mod.attributes, ['pictureUrl'], ''),
+    fileType: getSafe_1.default(mod.attributes, ['fileType'], ''),
+    game: mod.attributes.downloadGame,
+    modId: mod.attributes.modId,
+    fileId: mod.attributes.fileId,
+    source: mod.attributes.source,
+});
+```
    
 ## ENB handling
 
