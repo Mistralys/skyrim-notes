@@ -207,6 +207,34 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 
 > Drawback: If the original mod is updated and item stats change, for example, the changes must be made in the crafting mod as well.
 
+## Editing textures
+
+### Jargon
+
+- DDS: Specialized texture file that also contains Mipmaps.
+- Normal map: Relief, topography or bump map. A separate texture file that contains the elevation information, as companion to the visual texture file.
+- Mipmaps: Different sized versions of a texture used depending on the player's distance from the textured object. Since an object far away does not need the full sized texture, a smaller version is used. Mipmaps are typcially generated automatically when saving the texture file.
+
+### DDS Files
+
+Required tool to open and save DDS files in Photoshop (requires an Nvidia Graphics Card, and Nvidia account):
+
+https://developer.nvidia.com/nvidia-texture-tools-exporter
+
+Structure of a texture file:
+
+- `TextureName.dds` - The base texture file
+- `TextureName_n.dds` - The normal map
+
+> Warning: Since DDS files are not lossless, opening and saving it reduces the quality each time. It is best to use the original files if available.
+
+### Generating normal maps from textures
+
+- Use a flattened, grayscale image of the source texture
+- In Photoshop, go to Filters > 3D > Generate normal map
+- Choose "Cube" as view for a good preview
+
+
 
 [USSEP]:https://www.nexusmods.com/skyrimspecialedition/mods/266
 [Address Library]:https://www.nexusmods.com/skyrimspecialedition/mods/32444
