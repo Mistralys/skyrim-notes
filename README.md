@@ -15,7 +15,11 @@ Collected notes for playing and modding Skyrim.
 
 More here: https://steamcommunity.com/sharedfiles/filedetails/?id=134522361
   
-## Vortex
+## Managing mods with Vortex
+
+### Profiles
+
+Profiles are an awesome tool: they can completely separate mods, savegames and the like, to be able to switch between playthroughs that use different sets of mods. Also a great way to test if mods work together: Duplicate a profile to a new one, deploy with the mods, run the game to try them out. The original profile can stay unchanged.
 
 ### Tagging 
 
