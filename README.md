@@ -214,7 +214,7 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 - **DDS**: Specialized texture file that also contains Mipmaps.
 - **Normal map**: Relief, topography or bump map. A separate texture file that contains the elevation information, as companion to the visual texture file.
 - **Mipmaps**: Different sized versions of a texture used depending on the player's distance from the textured object. Since an object far away does not need the full sized texture, a smaller version is used. Mipmaps are typcially generated automatically an directly integrated into the DDS file.
-- **Alpha channel**: Also called *specular* layer. This does not actually give the texture transparency, it determines how glossy it is. The more opaque the layer is (=no transparency), the glossier the result is.
+- **Alpha channel**: Also called *specular* layer. This does not actually give the texture transparency, it determines how glossy it is. The more opaque the layer is (=no transparency), the glossier the result is. Not using an alpha layer will cause the texture to have the maximum glossiness.
 
 ### DDS Files
 
