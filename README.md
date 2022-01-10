@@ -209,11 +209,12 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 
 ## Editing textures
 
-### Jargon
+### Lexicon
 
-- DDS: Specialized texture file that also contains Mipmaps.
-- Normal map: Relief, topography or bump map. A separate texture file that contains the elevation information, as companion to the visual texture file.
-- Mipmaps: Different sized versions of a texture used depending on the player's distance from the textured object. Since an object far away does not need the full sized texture, a smaller version is used. Mipmaps are typcially generated automatically when saving the texture file.
+- **DDS**: Specialized texture file that also contains Mipmaps.
+- **Normal map**: Relief, topography or bump map. A separate texture file that contains the elevation information, as companion to the visual texture file.
+- **Mipmaps**: Different sized versions of a texture used depending on the player's distance from the textured object. Since an object far away does not need the full sized texture, a smaller version is used. Mipmaps are typcially generated automatically an directly integrated into the DDS file.
+- **Alpha channel**: Also called *specular* layer. This does not actually give the texture transparency, it determines how glossy it is. The more opaque the layer is (=no transparency), the glossier the result is.
 
 ### DDS Files
 
@@ -221,7 +222,7 @@ Required tool to open and save DDS files in Photoshop (requires an Nvidia Graphi
 
 https://developer.nvidia.com/nvidia-texture-tools-exporter
 
-Structure of a texture file:
+Structure of a texture:
 
 - `TextureName.dds` - The base texture file
 - `TextureName_n.dds` - The normal map
@@ -234,6 +235,9 @@ Structure of a texture file:
 - In Photoshop, go to Filters > 3D > Generate normal map
 - Choose "Cube" as view for a good preview
 
+### Specular layer
+
+In Photoshop, the firstmost layer is used as alpha channel for the texture's specular aspect (its glossyness). It can stay invisible, it just needs to be there.
 
 
 [USSEP]:https://www.nexusmods.com/skyrimspecialedition/mods/266
