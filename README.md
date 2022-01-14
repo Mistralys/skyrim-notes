@@ -31,6 +31,7 @@ In my Vortex mods list, I rename mods to add custom tags. This makes it a lot ea
 #### General tags
 
 * `[NoSKSE]` and `[SKSE]` - Whether [SKSE][] (Skyrim Script Extender) is required.
+* `[SKUP]` - Needs to be updated when the game is updated (SKSE, Address lib, ...).
 * `[NewGame]` - Requires a new game, cannot be enabled mid-save.
 * `[BodySlide]` - Includes BodySlide files.
 * `[ReadNotes]` - Important info available in the Vortex mod notes.
