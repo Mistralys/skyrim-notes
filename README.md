@@ -140,8 +140,27 @@ const transformModFormat = (mod) => ({
    
 ## ENB handling
 
-Download for Skyrim: [ENB][].
- 
+### Installing 
+
+Download ENB binaries for Skyrim: [ENB][].
+
+At minimum, the following files need to be added to the Skyrim installation folder:
+
+- `d3d11.dll`
+- `d3dcompiler_46e.dll`
+- `enblocal.ini`
+- `enbseries.ini`
+
+The `enbseries.ini` is the main file in which adjustments are made. ENB presets typically overwrite this file with their own settings, and may add additional files as well.
+
+### Ingame usage
+
+1. Start Skyrim. An ENB note should be displayed right at the start in the top left corner. On first load, building the shaders may take a while, during which the screen stays black. Simply stay patient, the menu will load once this has been done.
+2. Load a game.
+3. Press the console key (typically `~`), to make it easier to navigate the ENB menus.
+4. Press `SHIFT+Enter` to open the ENB menu (default - may be changed in `enblocal.ini` under the `[INPUT]` section.
+5. Make any adjustments as required.
+
 ## Mod notes
 
 ### Race Menu
