@@ -235,6 +235,29 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 
 ### Lexicon
 
+- **Hearthfire**: System integrated in Skyrim that allows custom building of player homes from blueprints and scavenged materials.
+- **Skyrim SE**: "Skyrim Special Edition"
+- **Skyrim AE**: Skyrim Anniversary Edition"
+- **SSE**: See *Skyrim SE*
+- **MO / MO2**: "Mod Organizer" - Mod manager software to install and manage mods. See also *Vortex*.
+- **Vanilla**: Used to denote anything in its original form - for example, Vanilla Skyrim means Skyrim without any mods.
+- **Vortex**: Mod manager software to install and manage mods hosted on nexusmods.com. See also *MO*.
+- **SKSE**: "Skyrim Script Extender" - Software that adds new functionality to Skyrim, which can then used by mods.
+- **MCM**: "Mod Configuration Menu" - Adds a menu in the Skyrim main menu in which mods can add their settings to easily edit these while playing.
+- **Navmesh**: Technique used in the game to tell NPCs where they can walk. "Navmeshed" locations means that NPCs will have no trouble getting around.
+- **SPID**: SKSE plugin that makes it possible to distribute items (clothing, armor, etc) to all NPCs, also those added by mods.
+- **RaceMenu**: Mod that improves on Skyrim's character creation menu, with many more customization options.
+- **FNIS**: "Fores New Idles" - Software that allows adding new animations to the player and NPC characters (new movements - think dancing for example).
+- **Patch (Mod)**: Fixes compatibility issues between two mods that edit the same items or locations.
+- **SkyUI**: Mod that improves some aspects of the game UI, like the inventory. Adds search capability and more.
+- **Replacer**: Does not add something new, but replaces something existing in the game (for example, an armor replacer will replace an existing armor).
+- **UNP**: Body mod - Replaces the female body with an improved version.
+- **CBBE**: Body mod - Replaces the female body with an improved version.
+- **USSEP**: "Unofficial Skyrim Special Edition Patch" - Collection of bug fixes for Skyrim.
+- **ENB**: Visual enhancer - Software that can enhance the Skyrim graphics engine. Better lighting, and visual effects overall. Also see *Particle light*.
+- **ENB preset**: Configuration files for ENB, to achieve a specific visual style.
+- **Particle Light**: Lighting technique that allows natural looking light sources. Superior to the vanilla lights.
+- **Parallax**: Technique that allows adding more 3D depth to flat textures. [Wikipedia](https://en.wikipedia.org/wiki/Parallax_mapping)
 - **DDS**: Specialized texture file that also contains Mipmaps.
 - **Normal map**: Relief, topography or bump map. A separate texture file that contains the elevation information, as companion to the visual texture file.
 - **Mipmaps**: Different sized versions of a texture used depending on the player's distance from the textured object. Since an object far away does not need the full sized texture, a smaller version is used. Mipmaps are typcially generated automatically an directly integrated into the DDS file.
