@@ -235,11 +235,17 @@ Use case: A mod adds items, but they are not craftable. They can be easily made 
 
 ### Lexicon
 
+- **BodySlide**: Software used with the *CBBE* body to apply custom body settings to armors and outfits in the games, including those added by mods.
+- **OutfitStudio**: See *BodySlide*.
 - **Hearthfire**: System integrated in Skyrim that allows custom building of player homes from blueprints and scavenged materials.
 - **Skyrim SE**: "Skyrim Special Edition"
 - **Skyrim AE**: Skyrim Anniversary Edition"
 - **SSE**: See *Skyrim SE*
 - **MO / MO2**: "Mod Organizer" - Mod manager software to install and manage mods. See also *Vortex*.
+- **HDT**: *SKSE* plugin that adds improved physics support for the player and NPCs.
+- **XPM**: More detailed skeleton for the player and NPCs, to allow improved movements and animations.
+- **XP32 Skeleton**: See *XPM*.
+- **CBP**: *SKSE* plugin that adds Breast, Butt and Belly physics support for the player and NPCs.
 - **Vanilla**: Used to denote anything in its original form - for example, Vanilla Skyrim means Skyrim without any mods.
 - **Vortex**: Mod manager software to install and manage mods hosted on nexusmods.com. See also *MO*.
 - **SKSE**: "Skyrim Script Extender" - Software that adds new functionality to Skyrim, which can then used by mods.
